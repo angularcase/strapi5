@@ -29,6 +29,14 @@
       "type": "richtext",
       "private": true,
       "required": true
+    },
+    "gallery": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
