@@ -388,7 +388,12 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
   attributes: {
     body: Schema.Attribute.RichText &
       Schema.Attribute.Required &
-      Schema.Attribute.Private;
+      Schema.Attribute.Private &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

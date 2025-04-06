@@ -28,7 +28,12 @@
     "body": {
       "type": "richtext",
       "private": true,
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "gallery": {
       "type": "media",
