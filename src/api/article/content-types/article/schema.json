@@ -4,7 +4,8 @@
   "info": {
     "singularName": "article",
     "pluralName": "articles",
-    "displayName": "Article"
+    "displayName": "Article",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -23,6 +24,11 @@
           "localized": true
         }
       }
+    },
+    "body": {
+      "type": "richtext",
+      "private": true,
+      "required": true
     }
   }
 }
