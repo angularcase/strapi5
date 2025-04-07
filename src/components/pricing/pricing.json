@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_pricing_pricings",
+  "info": {
+    "displayName": "Pricing",
+    "icon": "database"
+  },
+  "options": {},
+  "attributes": {
+    "first": {
+      "type": "string"
+    },
+    "second": {
+      "type": "string"
+    }
+  }
+}

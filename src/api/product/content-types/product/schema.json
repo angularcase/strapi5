@@ -24,11 +24,11 @@
         }
       }
     },
-    "articles": {
+    "article": {
       "type": "relation",
-      "relation": "manyToMany",
+      "relation": "manyToOne",
       "target": "api::article.article",
-      "mappedBy": "products"
+      "inversedBy": "products"
     }
   }
 }
